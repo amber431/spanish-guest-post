@@ -1,0 +1,267 @@
+@media (max-width: 768px) {
+  .navbar-nav .nav-item {
+    text-align: left;
+  }
+
+  .navbar-nav .nav-item:hover {
+    background-color: white;
+  }
+}
+
+.Order-Summary{
+  background:rgb(17, 87, 136);
+}
+.head {
+  font-size:16px;
+}
+.card-header1{
+  background-color:#2A3855;
+}
+.navbar-nav .nav-link:hover {
+  color: #f8f9fa;
+  text-decoration: underline;
+}
+.label-white {
+  color: white;
+}
+.btnn{
+  background-color:#2A3855;
+}
+.txt{
+  color: #2A3855;
+}
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  background:#2A3855;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  color: #f8f9fa;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.custom-dropdown {
+  background-color: #2A3855;
+  border: none;
+  min-width: 200px;
+  margin-top: 1.125rem !important;
+  margin-left: -146px;
+}
+
+@media (max-width: 768px) {
+  .custom-dropdown {
+    min-width: 100%; 
+    margin-left: 0;  
+    text-align: center;
+  }
+}
+
+.custom-dropdown .dropdown-item {
+  color: white;
+}
+
+.custom-dropdown .dropdown-item:hover {
+  background-color: #115788;
+  color: #e0e0e0;
+}
+
+.custom-dropdown .dropdown-divider {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+.profile-image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.profile-image-container img {
+  width: 150px;
+  height: 150px;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  display: none; 
+}
+
+.profile-image-container:hover .overlay-text {
+  display: block; 
+}
+.btnn {
+  background-color: #115788; 
+  border-color: white; 
+}
+
+.btnn:checked {
+  background-color: #1f2a45; 
+  border-color:white; 
+}
+
+.btnn:focus {
+  outline: none;
+  box-shadow: 0 0 3px 2px white; 
+}
+.toggle-button {
+  border: 2px solid #ccc;
+  color: #2A3855;
+  background-color: transparent;
+}
+
+.toggle-button.active {
+  background-color: #2A3855;
+  color: #fff;
+  border-color: #2A3855;
+}
+
+.toggle-button:hover {
+  background-color: #115788;
+  color: #fff;
+  border-color: #2A3855;
+  opacity: 0.9;
+}
+.otp-input {
+  font-size: 1.5rem;
+  height: 3rem;
+  text-align: center;
+}
+.bounce-in {
+  animation: bounceIn 2s ease;
+}
+.form-select {
+  background-color: #233447;
+  color: #fff;
+  border: none;
+  border: " 1px solid #ffffff";
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding-right: 30px;
+  background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white"><path d="M7 10l5 5 5-5z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 16px 16px;
+}
+
+.form-select option {
+  background-color: #fff;
+  color: #000;
+  border: "1px solid #ffffff";
+}
+.fade-in {
+  animation: fadeIn 6s ease-in-out;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes bounceOut {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+}
+
+.bounceIn-in {
+  animation: bounceIn 1s ease-in-out;
+}
+
+.bounceOut-out {
+  animation: bounceOut 1s ease-in-out;
+}
+.dropdown-item {
+  color: #2A3855; 
+  padding: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.dropdown-item:hover {
+  background-color: #115788;
+  color: white;
+  padding: 10px;
+}
+
+.custom-dropdown {
+  background-color: white;
+  border: none;
+  min-width: 200px;
+  margin-top: 1.125rem !important;
+  margin-left: -146px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.custom-dropdown .dropdown-item {
+  color: #2A3855;
+}
+.custom-dropdown .dropdown-item:hover {
+  background-color: #115788;
+  color: white;
+}
+.custom-dropdown .dropdown-divider {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+.nav-link i {
+  font-size: 22px;
+}
+.navbar-nav .nav-link:hover {
+  text-decoration: none;
+}
+
+.dropdown-item:hover,
+.dropdown-item:hover a,
+.dropdown-item:hover i {
+  color: white !important;
+  text-decoration: none;
+}
+
+.navbar-toggler-icon.close-icon {
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+}
+
+.hamburger-icon::before {
+  content: "\2630";
+  font-size: 1.5rem;
+  display: block;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.cross-icon::before {
+  content: "\2715"; 
+  font-size: 1.5rem;
+  display: block;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
